@@ -1,0 +1,53 @@
+.navbar-color {
+    background: rgb(200, 200, 200);
+    height: 75px;
+}
+
+.nav-link {
+    color: rgb(121, 36, 47);
+    font-weight: 900;
+}
+
+.nav-link:hover {
+    color: rgb(121, 36, 47);
+}
+
+.list {
+    position: relative;
+    /* background-color: #333; */
+    overflow: hidden;
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.linkedin {
+    position: absolute;
+    left: 95%;
+    margin: 30px 30px 5px 0;
+    width: 100px;
+    height: 100px;
+}
+
+.icon {
+    color: rgb(121, 36, 47);
+}
+
+.img-logo {
+    padding: 150px 0 150px 0;
+}
+
+footer {
+    height: 100px;
+    background: rgb(121, 36, 47);
+    color: rgb(200, 200, 200);
+    text-align: center;
+    margin-top: 75px;
+    padding: 30px;
+}
+
+.clocks-style {
+    font-weight: bolder;
+}
