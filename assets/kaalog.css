@@ -1,5 +1,7 @@
+/* /////////////////////////////////////////////nav bar////////////////////////////////////// */
+
 .navbar-color {
-    background: rgb(200, 200, 200);
+    /* background: rgb(200, 200, 200); */
     height: 75px;
 }
 
@@ -14,7 +16,7 @@
 
 .list {
     position: relative;
-    /* background-color: #333; */
+    /* background-color: rgb(84, 86, 90); */
     overflow: hidden;
     float: none;
     position: absolute;
@@ -31,13 +33,82 @@
     height: 100px;
 }
 
+#icon {
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 1;
+}
+
 .icon {
     color: rgb(121, 36, 47);
 }
 
+h1 {
+    padding-left: 40%;
+    margin-bottom: 2rem;
+    text-decoration: underline rgb(121, 36, 47);
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+
+/* 
+/////////////////////////////////////////////////////////// end inicio//////////////////////////////////////////// */
+
 .img-logo {
     padding: 150px 0 150px 0;
 }
+
+.clocks-style {
+    font-weight: bolder;
+    /* background-color: rgb(84, 86, 90); */
+    padding: 30px;
+    /* color: rgb(121, 36, 47); */
+    margin-bottom: 200px;
+}
+
+#page-index1 {
+    background: rgb(200, 200, 200);
+}
+
+#page-index2 {
+    background-image: repeating-linear-gradient(90deg, rgb(200, 200, 200) 0px, rgb(200, 200, 200) 40px, white 50px)
+}
+
+
+/* ////////////////////////////////////////////////////// nosotros //////////////////////////////////// */
+
+.for-check {
+    border: 2px solid black;
+}
+
+
+/* .group-photo {
+    width: 700px;
+    height: 300px;
+    border: 2px solid red;
+    align-items: stretch;
+} */
+
+.nosotros-content {
+    align-content: center;
+    line-height: 1.5;
+}
+
+.mis-vis-val {
+    padding: 4rem;
+}
+
+
+/* //////////////////////////////////////////////////////// servicios //////////////////////////////////// */
+
+
+/* ////////////////////////////////////////////////////// contacto //////////////////////////////////////// */
+
+
+/* //////////////////////////////////////////////////  footer /////////////////////////////////////// */
 
 footer {
     height: 100px;
@@ -46,8 +117,4 @@ footer {
     text-align: center;
     margin-top: 75px;
     padding: 30px;
-}
-
-.clocks-style {
-    font-weight: bolder;
 }
