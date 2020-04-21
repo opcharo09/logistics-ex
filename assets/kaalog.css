@@ -1,7 +1,14 @@
+/* ///////////////////////////////////////////////body///////////////////////////////////////////// */
+
+#page-index1 {
+    background: rgb(200, 200, 200);
+}
+
+
 /* /////////////////////////////////////////////nav bar////////////////////////////////////// */
 
 .navbar-color {
-    /* background: rgb(200, 200, 200); */
+    background: rgb(200, 200, 200);
     height: 75px;
 }
 
@@ -11,12 +18,12 @@
 }
 
 .nav-link:hover {
-    color: rgb(121, 36, 47);
+    color: rgb(200, 200, 200);
+    background: rgb(121, 36, 47);
 }
 
 .list {
     position: relative;
-    /* background-color: rgb(84, 86, 90); */
     overflow: hidden;
     float: none;
     position: absolute;
@@ -46,16 +53,17 @@
 h1 {
     padding-left: 40%;
     margin-bottom: 2rem;
-    text-decoration: underline rgb(121, 36, 47);
+    color: rgb(121, 36, 47);
 }
 
 h2 {
     margin-bottom: 1rem;
+    color: rgb(121, 36, 47);
 }
 
 
 /* 
-/////////////////////////////////////////////////////////// end inicio//////////////////////////////////////////// */
+/////////////////////////////////////////////////////////// inicio //////////////////////////////////////////// */
 
 .img-logo {
     padding: 150px 0 150px 0;
@@ -63,49 +71,81 @@ h2 {
 
 .clocks-style {
     font-weight: bolder;
-    /* background-color: rgb(84, 86, 90); */
     padding: 30px;
-    /* color: rgb(121, 36, 47); */
-    margin-bottom: 200px;
-}
-
-#page-index1 {
-    background: rgb(200, 200, 200);
-}
-
-#page-index2 {
-    background-image: repeating-linear-gradient(90deg, rgb(200, 200, 200) 0px, rgb(200, 200, 200) 40px, white 50px)
+    margin-bottom: 100px;
 }
 
 
 /* ////////////////////////////////////////////////////// nosotros //////////////////////////////////// */
 
-.for-check {
-    border: 2px solid black;
-}
-
-
-/* .group-photo {
-    width: 700px;
-    height: 300px;
-    border: 2px solid red;
-    align-items: stretch;
-} */
-
-.nosotros-content {
+div.nosotros-content {
     align-content: center;
     line-height: 1.5;
+    padding: 50px;
+}
+
+div.team-photo {
+    background: url(../pictures/group-of-people-in-dress-suits-776615.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70% 600px;
+    opacity: 1;
+}
+
+div.team-img {
+    background: rgb(200, 200, 200);
+    background: rgba(200, 200, 200, 0.8);
+    width: 100%;
+    height: 100%;
+    font-weight: 700;
 }
 
 .mis-vis-val {
     padding: 4rem;
+    margin-bottom: 100px;
 }
 
 
 /* //////////////////////////////////////////////////////// servicios //////////////////////////////////// */
 
+#servicio-map {
+    background: url(../pictures/istockphoto-984431724-612x612.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.servicio h1 {
+    padding-top: 100px;
+}
+
+.servicio h2 {
+    color: rgb(84, 86, 90);
+}
+
+.servicio h3 {
+    text-align: center;
+    padding-right: 7%;
+    margin-bottom: 70px;
+    color: rgb(121, 36, 47)
+}
+
+.transporte {
+    margin-bottom: 50px;
+}
+
+.tran-ser {
+    margin-bottom: 100px;
+}
+
 
 /* ////////////////////////////////////////////////////// contacto //////////////////////////////////////// */
+
+#w-icon {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 1;
+}
 
 
 /* //////////////////////////////////////////////////  footer /////////////////////////////////////// */
@@ -116,5 +156,89 @@ footer {
     color: rgb(200, 200, 200);
     text-align: center;
     margin-top: 75px;
+    padding: 30px;
+}
+
+
+/* 
+//////////////////////////////////////////alternate//////////////////////////////////////////////////
+//////////////////////////////////////////version///////////////////////////////////////////////////// */
+
+#page-index2 {
+    background-image: repeating-linear-gradient(90deg, rgb(200, 200, 200) 0px, rgb(200, 200, 200) 40px, white 50px)
+}
+
+.list2 {
+    position: relative;
+    background-color: rgb(84, 86, 90);
+    overflow: hidden;
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.nav-link2 {
+    color: rgb(200, 200, 200);
+    font-weight: 900;
+}
+
+.nav-link2:hover {
+    color: rgb(121, 36, 47);
+}
+
+.clocks-style2 {
+    font-weight: bolder;
+    padding: 30px;
+    margin-bottom: 100px;
+    background-color: rgb(84, 86, 90);
+    color: rgb(200, 200, 200);
+}
+
+.n-bg {
+    background: rgb(200, 200, 200);
+}
+
+.n-bg h2 {
+    color: rgb(84, 86, 90);
+}
+
+.team-img2 {
+    padding-top: 100px;
+    background: rgb(200, 200, 200);
+    background: rgba(200, 200, 200, 0.8);
+    width: 100%;
+    height: 100%;
+    font-weight: 700;
+}
+
+.side-pic {
+    width: 225px;
+    height: 200px;
+    border: 3px solid rgb(84, 86, 90);
+}
+
+.mis-vis-val2 {
+    padding: 4rem;
+    margin-bottom: 0;
+}
+
+.tran-ser2 {
+    margin-bottom: 0;
+}
+
+.contact2 {
+    border: 2px solid rgb(84, 86, 90);
+    height: 500px;
+    padding: 100px;
+}
+
+.footer2 {
+    height: 100px;
+    background: rgb(84, 86, 90);
+    color: rgb(200, 200, 200);
+    text-align: center;
+    margin-top: 0;
     padding: 30px;
 }
