@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 </head>
 
-<body>
+<body onload="updateClock(); setInterval('updateClock()', 1000 )">
     <Div class="container-fluid rest-ofpage-bg">
         <nav class="navbar navbar-expand-lg sticky-top navbar-color ">
             <a class="navbar-brand" href="#inicio">
@@ -22,6 +22,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
                 <ul class="navbar-nav list">
                     <li class="nav-item active p-2">
                         <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
@@ -42,25 +43,67 @@
             </div>
         </nav>
 
-        <section id="contacto">
-            <div class="container-fluid contacto">
-                <h1>CONTACTANOS</h1>
-                <div class="row">
-                    <div class="col-6">
-                        <h2>Porque elegirnos?</h2>
-                        <p> Por que ofrecemos soluciones de transporte internacional con el soporte del conocimeinto y experiencia de nuestros colaboradores y socios comerciales, al eficinetar recursos en un plan logistico hecho a la medida
-                        </p>
-                    </div>
-                    <div class="col-6">
-                        <h2>KAALOG TRANSPORT SOLUTIONS</h2>
-                        <p>Carretera Nacional 8040 oficina mi cuarto</p>
-                        <p>En algun lugar en Houston TX USA 77777</p>
-                        <p>p: +81.03.1234.5423 <i class="fab fa-whatsapp icon" id="w-icon"></i> 713-713-7133 </p>
-                        <p>info@kaalog.com www.kaalog.com</p>
-                    </div>
+        <section id="servicios">
+            <div class="container-fluid servicio " id="servicio-map">
+                <h1>NUESTROS SERVICIOS</h1>
+                <div class="container">
+                    <div class="row transporte servicio">
+                        <div class="col-4">
+                            <h2>Transporte Aereo</h2>
+                            <p>-Servicio regular</p>
+                            <p>-Prioritario</p>
+                            <p>-Carga Proyecto</p>
+                        </div>
+                        <div class="col-4">
+                            <h2>Transporte Maritimo</h2>
+                            <p>-FLC</p>
+                            <p>-LCL</p>
+                            <p>-Break Bulk</p>
+                            <p>-RO/RO</p>
+                            <p>-Carga Proyecto</p>
+
+                        </div>
+                        <div class="col-4">
+                            <h2>Transporte Terrestre</h2>
+                            <p>-FTL</p>
+                            <p>-LTL</p>
+                            <p>-Carga Proyecto</p>
+                        </div>
+                    </Div>
+                    <Div class="row tran-ser servicio">
+                        <div class="col-3">
+                            <h2>Especiales</h2>
+                            <p>-Hand Carrier</p>
+                            <p>-Hot Shot</p>
+                            <p>-Doble Operador</p>
+                        </div>
+                        <div class="col-3">
+                            <h2>Intermodal</h2>
+                            <p>-Servicio Puerta - Puerta</p>
+                        </div>
+                        <div class="col-3">
+                            <h2>Aduana</h2>
+                            <p>-Importacion</p>
+                            <p>-Exportacion</p>
+                        </div>
+                        <div class="col-3">
+                            <h2>Seguro</h2>
+                            <p>-Seguro de transporte Internacional de Mercancia</p>
+                            <p>-Seguro de Contenedores Maritimos en Territorio Nacional</p>
+                        </div>
+                    </Div>
                 </div>
             </div>
         </section>
+
+
+
+
+
+
+
+
+
     </Div>
     <footer class="sticky-battom">
         KAALOG Transport solutions.&copy; 2020 Todos los derechos reservados.diseno por Alguien Nose.
