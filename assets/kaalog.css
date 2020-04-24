@@ -1,6 +1,6 @@
 /* ///////////////////////////////////////////////mainPage(inicio)///////////////////////////////////////////// */
 
-#page-index1 {
+#mpage-bg {
     background-image: repeating-linear-gradient(90deg, rgb(200, 200, 200) 0px, rgb(200, 200, 200) 40px, white 50px);
     height: 800px;
 }
@@ -82,7 +82,6 @@ span.navbar-toggler-icon {
 }
 
 h1 {
-    /* padding-left: 40%; */
     margin-bottom: 2rem;
     color: rgb(121, 36, 47);
 }
@@ -95,31 +94,67 @@ h2 {
 
 /* ////////////////////////////////////////////////////// nosotros //////////////////////////////////// */
 
-div.nosotros-content {
+.nosotros-content {
     align-content: center;
     line-height: 1.5;
     padding: 50px;
+    color: rgb(84, 86, 90);
 }
 
-div.team-photo {
+.nosotros-content h1 {
+    padding-top: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-right: 7%;
+}
+
+.nosotros-content h2 {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.team-photo {
     background: url(../pictures/group-of-people-in-dress-suits-776615.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 70% 600px;
+    background-size: cover;
     opacity: 1;
 }
 
-div.team-img {
+
+/* .team-img2 {
+    padding-top: 100px;
     background: rgb(200, 200, 200);
-    background: rgba(200, 200, 200, 0.8);
+    background: rgba(200, 200, 200, 0.9);
     width: 100%;
     height: 100%;
     font-weight: 700;
+} */
+
+.lside-pic {
+    width: 225px;
+    height: 200px;
+    margin-right: 0;
 }
 
-.mis-vis-val {
-    padding: 4rem;
-    margin-bottom: 100px;
+.rside-pic {
+    width: 225px;
+    height: 200px;
+    margin-left: 0;
+}
+
+.mis-vis-val2 {
+    margin-bottom: 0;
+    padding-bottom: 3rem;
+}
+
+.mis-vis-val2 h2 {
+    text-align: center;
+}
+
+.mis-vis-val2 p {
+    text-align: center;
+    font-size: 1.2rem;
 }
 
 
@@ -154,15 +189,21 @@ div.team-img {
 
 /* ////////////////////////////////////////////////////// contacto //////////////////////////////////////// */
 
-#w-icon {
+.w-icon {
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 1.5rem;
     line-height: 1;
 }
 
 .contacto {
     height: 615px;
     padding: 100px;
+}
+
+.contacto h1 {
+    text-align: center;
+    margin-bottom: 70px;
+    padding-right: 7%;
 }
 
 
@@ -175,33 +216,4 @@ footer {
     text-align: center;
     margin-top: 0;
     padding: 30px;
-}
-
-
-/* 
-//////////////////////////////////////////alternate//////////////////////////////////////////////////
-//////////////////////////////////////////version///////////////////////////////////////////////////// */
-
-.team-img2 {
-    padding-top: 100px;
-    background: rgb(200, 200, 200);
-    background: rgba(200, 200, 200, 0.8);
-    width: 100%;
-    height: 100%;
-    font-weight: 700;
-}
-
-.side-pic {
-    width: 225px;
-    height: 200px;
-    border: 3px solid rgb(84, 86, 90);
-}
-
-.mis-vis-val2 {
-    padding: 4rem;
-    margin-bottom: 0;
-}
-
-.tran-ser2 {
-    margin-bottom: 0;
 }
