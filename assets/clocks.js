@@ -24,20 +24,13 @@ function updateClock() {
     currentHours = (currentHours == 0) ? 12 : currentHours;
 
     // Compose the string for display
-    var currentTimeString = currentHours + ":" + currentMinutes + ":" + currentSeconds + " " + timeOfDay;
+    var currentTime = currentHours + ":" + currentMinutes + ":" + currentSeconds + " " + timeOfDay;
 
     // Update the time display
-    document.getElementById("clock").firstChild.nodeValue = currentTimeString;
+    document.getElementById("clock").firstChild.nodeValue = currentTime;
 }
 
 
-
-
-
-
-{ /* <body onload="updateClock(); setInterval('updateClock()', 1000 )"> */ }
-
-{ /* <script type="text/javascript"> */ }
 
 function updateClock() {
     var currentTime = new Date();
@@ -94,17 +87,17 @@ function updateClock() {
     currentHours = (currentHours == 0) ? 12 : currentHours;
 
     // Compose the string for display
-    var currentTimeString = currentDay + " " + currentMonth + " " + currentDate + " ," + " 2020 " + currentHours + ":" + currentMinutes + " " + timeOfDay;
-
+    // var currentTime = currentDay + " " + currentMonth + " " + currentDate + " ," + " 2020 " + currentHours + ":" + currentMinutes + " " + timeOfDay;
+    var currentTime = currentHours + ":" + currentMinutes + " " + timeOfDay;
 
 
     // Update the time display
-    document.getElementById("clock").firstChild.nodeValue = currentTimeString;
-    document.getElementById("aClock").firstChild.nodeValue = currentTimeString;
-    document.getElementById("bClock").firstChild.nodeValue = currentTimeString;
-    document.getElementById("cClock").firstChild.nodeValue = currentTimeString;
-    document.getElementById("dClock").firstChild.nodeValue = currentTimeString;
-    document.getElementById("eClock").firstChild.nodeValue = currentTimeString;
+    document.getElementById("clock").firstChild.nodeValue = currentTime;
+    document.getElementById("aClock").firstChild.nodeValue = currentTime;
+    document.getElementById("bClock").firstChild.nodeValue = currentTime;
+    document.getElementById("cClock").firstChild.nodeValue = currentTime;
+    document.getElementById("dClock").firstChild.nodeValue = currentTime;
+    document.getElementById("eClock").firstChild.nodeValue = currentTime;
 }
 
 // used solution found on  https://www.elated.com/creating-a-javascript-clock/ to code clocks

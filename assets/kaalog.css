@@ -2,7 +2,7 @@
 
 #mpage-bg {
     background-image: repeating-linear-gradient(90deg, rgb(200, 200, 200) 0px, rgb(200, 200, 200) 40px, white 50px);
-    height: 800px;
+    height: 900px;
 }
 
 .main-navbar {
@@ -10,13 +10,48 @@
 }
 
 .img-logo {
-    padding: 150px 0 150px 0;
+    padding: 150px 0 75px 0;
 }
 
 .clocks-style {
+    /* border: solid 2px black; */
     font-weight: bolder;
-    padding: 30px;
-    margin-bottom: 100px;
+    height: 300px;
+}
+
+.clocks-style h2 {
+    color: rgb(43, 40, 40);
+    padding-left: 25px;
+}
+
+.inner {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 50px;
+    background: linear-gradient(to bottom, rgba(200, 200, 200, 1) 0%, rgba(200, 200, 200, 1) 100%);
+    border: 8px solid rgb(200, 200, 200);
+    border-radius: 10%;
+    box-sizing: border-box;
+    box-shadow: 0 10px 20px 10px whitesmoke;
+    filter: blur(1px);
+    margin-top: 10px;
+}
+
+#clock {
+    position: absolute;
+    top: 65px;
+    left: 125px;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 70px;
+    /* color: rgb(121, 36, 47); */
+    font-family: 'Baloo Tammudu', cursive;
+    font-size: 28px;
+    text-align: center;
+    text-shadow: 0 10px 30px #8DCAED;
 }
 
 
@@ -91,6 +126,14 @@ h2 {
     color: rgb(121, 36, 47);
 }
 
+.sidebar {
+    /* z-index: 5; */
+    height: 100%;
+    /* top: 0px;
+    bottom: 0px; */
+    background: black;
+}
+
 
 /* ////////////////////////////////////////////////////// nosotros //////////////////////////////////// */
 
@@ -102,7 +145,6 @@ h2 {
 }
 
 .nosotros-content h1 {
-    padding-top: 50px;
     text-align: center;
     margin-bottom: 30px;
     padding-right: 7%;
@@ -113,34 +155,38 @@ h2 {
     margin-bottom: 70px;
 }
 
-.team-photo {
+#team-photo {
     background: url(../pictures/group-of-people-in-dress-suits-776615.jpg);
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 1;
+    background-size: 500px 100%;
+    margin: 10 0 10 0;
+    padding-left: 0;
+    padding-right: 0;
 }
 
-
-/* .team-img2 {
-    padding-top: 100px;
-    background: rgb(200, 200, 200);
-    background: rgba(200, 200, 200, 0.9);
+.team-img2 {
+    padding: 30px;
+    background: rgb(43, 40, 40);
+    background: rgb(43, 40, 40, 0.75);
     width: 100%;
     height: 100%;
     font-weight: 700;
-} */
-
-.lside-pic {
-    width: 225px;
-    height: 200px;
-    margin-right: 0;
+    color: rgb(200, 200, 200);
 }
 
-.rside-pic {
-    width: 225px;
+.side-pic {
+    width: 100%;
     height: 200px;
+}
+
+#lphoto {
+    margin-right: 0;
+    padding-right: 0;
+}
+
+#rphoto {
     margin-left: 0;
+    padding-left: 0;
 }
 
 .mis-vis-val2 {
@@ -161,10 +207,11 @@ h2 {
 /* //////////////////////////////////////////////////////// servicios //////////////////////////////////// */
 
 #servicio-map {
-    background: url(../pictures/istockphoto-984431724-612x612.jpg);
+    background: url(../pictures/world-map.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 900px;
 }
 
 .servicio h1 {
@@ -187,12 +234,43 @@ h2 {
 }
 
 
+/* .inner-servicio {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(to bottom, rgba(8, 8, 71, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    border: 8px solid #1A23F2;
+    border-radius: 50%;
+    box-sizing: border-box;
+    box-shadow: 0 10px 20px 10px #000;
+    filter: blur(1px);
+}
+
+#clock {
+    position: absolute;
+    top: 70px;
+    right: 40px;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 70px;
+    color: #fff;
+    font-family: 'Baloo Tammudu', cursive;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 0 0 30px #8DCAED;
+} */
+
+
 /* ////////////////////////////////////////////////////// contacto //////////////////////////////////////// */
 
 .w-icon {
     font-weight: 700;
     font-size: 1.5rem;
     line-height: 1;
+    color: rgb(121, 36, 47);
 }
 
 .contacto {
@@ -204,6 +282,10 @@ h2 {
     text-align: center;
     margin-bottom: 70px;
     padding-right: 7%;
+}
+
+#i-phone {
+    transform: scaleX(-1);
 }
 
 
