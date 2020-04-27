@@ -282,7 +282,8 @@ h2 {
     filter: blur(1px);
 }
 
-#clock {
+
+/* #clock {
     position: absolute;
     top: 110px;
     right: 45px;
@@ -294,7 +295,7 @@ h2 {
     font-size: 25px;
     text-align: center;
     text-shadow: 0 0 30px #8DCAED;
-}
+} */
 
 
 /* ////////////////////////////////////////////////////// contacto //////////////////////////////////////// */
