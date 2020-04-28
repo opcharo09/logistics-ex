@@ -14,7 +14,6 @@
 }
 
 .clocks-style {
-    /* border: solid 2px black; */
     font-weight: bolder;
     height: 300px;
 }
@@ -199,7 +198,7 @@ h2 {
 /* //////////////////////////////////////////////////////// servicios //////////////////////////////////// */
 
 .servicio {
-    background: url(../pictures/world-map.jpg);
+    background: url(../pictures/world-map-icons.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -255,6 +254,10 @@ h2 {
     right: 140px;
 }
 
+#headings h3 {
+    text-align: start;
+}
+
 .clocks-style-service {
     height: 100%;
 }
@@ -280,6 +283,7 @@ h2 {
     box-sizing: border-box;
     box-shadow: 0 10px 20px 10px #000;
     filter: blur(1px);
+    opacity: 0.7;
 }
 
 
