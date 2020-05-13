@@ -31,17 +31,17 @@ body {
     width: 130px;
     height: 50px;
     background: linear-gradient(to bottom, rgba(200, 200, 200, 1) 0%, rgba(200, 200, 200, 1) 100%);
-    border: 9px solid rgb(43, 40, 40);
+    border: 6px solid rgb(84, 86, 90);
     border-radius: 20%;
     box-sizing: border-box;
     /* box-shadow: 0 10px 20px 10px whitesmoke; */
     filter: blur(1px);
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .time {
     position: absolute;
-    top: 65px;
+    top: 60px;
     left: 95px;
     transform: translateX(-50%);
     width: 100%;
@@ -118,11 +118,6 @@ span.navbar-toggler-icon {
     background: rgb(200, 200, 200);
 }
 
-h1 {
-    margin-bottom: 2rem;
-    color: rgb(121, 36, 47);
-}
-
 h2 {
     margin-bottom: 1rem;
     color: rgb(121, 36, 47);
@@ -139,7 +134,7 @@ h2 {
     font-size: 1.1rem;
 }
 
-.nosotros-content h4 {
+.nosotros-content h2 {
     text-align: center;
     margin: 50px 0 70px;
     color: rgb(121, 36, 47);
@@ -204,6 +199,14 @@ h2 {
     background-repeat: no-repeat;
     background-size: cover;
     height: 976px;
+    border: solid 3px white;
+    border-radius: 40px;
+    margin-top: 10px;
+}
+
+#servicio-map {
+    margin-right: 0;
+    margin-left: 0;
 }
 
 .servicio h2 {
@@ -260,3 +263,28 @@ footer {
 
 
 /* ////////////////////////////////////////////////////////////////media queries////////////////////////////////////////////////////////////////////// */
+
+
+/* // Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width: 575.98px) {}
+
+
+/* // Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+
+/* // Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+
+/* // Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+
+/* // Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {}
