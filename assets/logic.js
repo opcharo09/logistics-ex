@@ -1,3 +1,17 @@
+var myNav = document.getElementById('mynav');
+window.onscroll = function() {
+    "use strict";
+    if (document.body.scrollTop >= 200) {
+        myNav.classList.add("navbar-color");
+        myNav.classList.remove("main-navbar");
+    } else {
+        myNav.classList.add("main-navbar");
+        myNav.classList.remove("navbar-color");
+    }
+};
+
+
+//////////////////////////////////////////clock logic//////////////////////////////
 function worldClock(zone, region) {
     var dst = 0
     var time = new Date()
@@ -275,9 +289,9 @@ function worldClock(zone, region) {
                 month -= -1
             }
         }
-        return +hr + ":" + min + ":" + sec
+        return +hr + ":" + min + ":" + sec + "h"
     } else {
-        return +hr + ":" + min + ":" + sec
+        return +hr + ":" + min + ":" + sec + "h"
     }
 }
 
