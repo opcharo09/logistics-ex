@@ -1,17 +1,16 @@
-var myNav = document.getElementById('mynav');
+var myNav = document.querySelector(".main-navbar");
 window.onscroll = function() {
-    "use strict";
-    if (document.body.scrollTop >= 200) {
-        myNav.classList.add("navbar-color");
-        myNav.classList.remove("main-navbar");
+    var top = window.scrollY;
+    console.log(top);
+    if (top >= 30) {
+        myNav.classList.add("navbar-color")
     } else {
-        myNav.classList.add("main-navbar");
-        myNav.classList.remove("navbar-color");
+        myNav.classList.remove("navbar-color")
     }
-};
+}
 
+///////////////////////////////////////////////////////// world clocks /////////////////////////////////////////////////
 
-//////////////////////////////////////////clock logic//////////////////////////////
 function worldClock(zone, region) {
     var dst = 0
     var time = new Date()
