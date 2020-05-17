@@ -1,3 +1,7 @@
+/* * {
+    border: solid 2px black;
+} */
+
 body {
     font-family: 'Tajawal', sans-serif;
 }
@@ -38,7 +42,6 @@ body {
     border-radius: 20%;
     box-sizing: border-box;
     filter: blur(1px);
-    /* margin-top: 3px; */
 }
 
 .time {
@@ -312,7 +315,25 @@ footer {
 
 /* // Extra small devices (portrait phones, less than 576px) */
 
-@media (max-width: 575.98px) {}
+@media (max-width: 575.98px) {
+    .img-logo {
+        padding: 100 0 0;
+    }
+    .clocks-style h4 {
+        margin-bottom: 50px;
+    }
+    .inner {
+        top: 30px;
+    }
+    .time {
+        position: absolute;
+        top: 33px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        height: 70px;
+    }
+}
 
 
 /* // Small devices (landscape phones, 576px and up) */
