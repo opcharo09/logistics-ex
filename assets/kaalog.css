@@ -217,6 +217,44 @@ h2 {
     padding-bottom: 50px;
 }
 
+#ter-con h2 {
+    text-align: center;
+    color: rgb(121, 36, 47);
+    margin-bottom: 30px;
+}
+
+.nservicios ul li {
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.nservicios ul {
+    padding-left: 1.3rem;
+    list-style: none;
+}
+
+.nservicios ul li:before {
+    content: '';
+    position: absolute;
+    border-right: 2px solid rgb(84, 86, 90);
+    border-bottom: 2px solid rgb(84, 86, 90);
+    width: 10px;
+    height: 10px;
+    top: calc(50% - 4px);
+    left: -20px;
+    transform: translateY(-50%) rotate(-45deg);
+    background-color: rgb(121, 36, 47);
+}
+
+#seguro ul li:before {
+    transform: translateY(-170%) rotate(-45deg);
+    ;
+}
+
+#ter-con:hover {
+    color: rgb(121, 36, 47);
+}
+
 
 /* ////////////////////////////////////////////////////// contacto //////////////////////////////////////// */
 
@@ -228,7 +266,7 @@ h2 {
 }
 
 .contacto {
-    /* height: 967px; */
+    height: 992px;
     padding: 75px;
 }
 
@@ -239,12 +277,21 @@ h2 {
     margin-bottom: 35px;
 }
 
+#location h2 {
+    font-size: 1.9rem;
+}
+
+#location p {
+    font-size: 1.1rem;
+}
+
 #i-phone {
     transform: scaleX(-1);
 }
 
 .goggle-map {
     width: 400px;
+    border: 2px solid rgb(84, 86, 90);
 }
 
 
