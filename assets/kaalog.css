@@ -317,7 +317,7 @@ footer {
 
 @media (max-width: 575.98px) {
     .img-logo {
-        padding: 100 0 0;
+        margin-bottom: 100px;
     }
     .clocks-style h4 {
         margin-bottom: 50px;
@@ -327,7 +327,7 @@ footer {
     }
     .time {
         position: absolute;
-        top: 33px;
+        top: 34px;
         left: 50%;
         transform: translateX(-50%);
         width: 100%;
