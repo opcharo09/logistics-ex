@@ -336,6 +336,9 @@ footer {
         width: 100%;
         height: 70px;
     }
+    .footer {
+        margin-top: 150px;
+    }
 }
 
 
@@ -358,6 +361,9 @@ footer {
         transform: translateX(-50%);
         width: 100%;
         height: 70px;
+    }
+    .footer {
+        margin-top: 100px;
     }
 }
 
