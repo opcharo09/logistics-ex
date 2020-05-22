@@ -1,4 +1,4 @@
-/* * {
+    /* * {
     border: solid 2px black;
 } */
 
@@ -315,7 +315,7 @@ footer {
 
 /* // Extra small devices (portrait phones, less than 576px) */
 
-@media (max-width: 575.98px) {
+@media (max-width: 483px) {
     .img-logo {
         margin-bottom: 75px;
     }
@@ -366,89 +366,79 @@ footer {
     }
 }
 
-
-/* // Small devices (landscape phones, 576px and up) */
-
-@media (min-width: 576px) and (max-width: 767.98px) {
-    .clocks-style {
-        margin-bottom: 50px;
+@media (min-width: 483px) and (max-width: 576px) {
+    /* // Small devices (landscape phones, 576px and up) */
+    @media (min-width: 576px) and (max-width: 767.98px) {
+        .clocks-style {
+            margin-bottom: 50px;
+        }
+        .clocks-style h4 {
+            margin-bottom: 50px;
+        }
+        .inner {
+            top: 30px;
+        }
+        .time {
+            top: 34px;
+            left: 50%;
+        }
+        .nosotros-content {
+            line-height: 1.1;
+        }
+        .nosotros-content h2 {
+            margin: 45px 0 45px;
+            font-size: 1.7rem;
+        }
+        #team-photo {
+            background-size: 350px 100%;
+        }
+        .team-img2 {
+            padding: 10px 20px;
+        }
+        .p-container {
+            min-width: 710px;
+        }
     }
-    .clocks-style h4 {
-        margin-bottom: 50px;
+    /* // Medium devices (tablets, 768px and up) */
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        .cityName {
+            padding: 0;
+        }
+        .inner {
+            top: 60px;
+            width: 110px;
+        }
+        .time {
+            top: 62px;
+            left: 60px;
+        }
+        .nosotros-content {
+            line-height: 1.1;
+        }
+        .nosotros-content h2 {
+            margin: 35px 0 35px;
+            font-size: 1.7rem;
+            font-weight: 700;
+        }
+        #team-photo {
+            background-size: 400px 100%;
+            margin: 0;
+        }
+        .team-img2 {
+            padding: 10px 20px;
+        }
     }
-    .inner {
-        top: 30px;
+    /* // Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) and (max-width: 1199.98px) {
+        .time {
+            left: 79px;
+        }
+        .nosotros-content h2 {
+            margin: 50px 0 50px;
+        }
+        .team-img2 {
+            padding: 10px 20px;
+        }
     }
-    .time {
-        top: 34px;
-        left: 50%;
-    }
-    .nosotros-content {
-        line-height: 1.1;
-    }
-    .nosotros-content h2 {
-        margin: 45px 0 45px;
-        font-size: 1.7rem;
-    }
-    #team-photo {
-        background-size: 350px 100%;
-    }
-    .team-img2 {
-        padding: 10px 20px;
-    }
-    .p-container {
-        min-width: 710px;
-    }
-}
-
-
-/* // Medium devices (tablets, 768px and up) */
-
-@media (min-width: 768px) and (max-width: 991.98px) {
-    .cityName {
-        padding: 0;
-    }
-    .inner {
-        top: 60px;
-        width: 110px;
-    }
-    .time {
-        top: 62px;
-        left: 60px;
-    }
-    .nosotros-content {
-        line-height: 1.1;
-    }
-    .nosotros-content h2 {
-        margin: 35px 0 35px;
-        font-size: 1.7rem;
-        font-weight: 700;
-    }
-    #team-photo {
-        background-size: 400px 100%;
-        margin: 0;
-    }
-    .team-img2 {
-        padding: 10px 20px;
-    }
-}
-
-
-/* // Large devices (desktops, 992px and up) */
-
-@media (min-width: 992px) and (max-width: 1199.98px) {
-    .time {
-        left: 79px;
-    }
-    .nosotros-content h2 {
-        margin: 50px 0 50px;
-    }
-    .team-img2 {
-        padding: 10px 20px;
-    }
-}
-
-
-/* // Extra large devices (large desktops, 1200px and up) */
-
-@media (min-width: 1200px) {}
+    /* // Extra large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) {}
