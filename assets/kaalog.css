@@ -346,6 +346,17 @@
         .rest-ofpage-bg {
             padding: 0;
         }
+        .servicio-map {
+            height: 200px;
+            width: 300px;
+        }
+        .transporte {
+            padding-left: 0 auto;
+        }
+        #seguro ul li:before {
+            transform: translateY(-175%) rotate(-45deg);
+            ;
+        }
     }
     /* /////////////// 483px - 576px///////////////////////// */
     
