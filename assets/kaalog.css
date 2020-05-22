@@ -403,6 +403,17 @@
         .rest-ofpage-bg {
             padding: 0;
         }
+        .servicio-map {
+            height: 300px;
+            width: 400px;
+        }
+        .transporte {
+            padding-left: 0 auto;
+        }
+        #seguro ul li:before {
+            transform: translateY(-175%) rotate(-45deg);
+            ;
+        }
     }
     /* // Small devices (landscape phones, 576px and up) */
     
@@ -436,6 +447,16 @@
         .p-container {
             min-width: 710px;
         }
+        .servicio-map {
+            height: 350px;
+        }
+        .transporte {
+            padding-left: 0;
+        }
+        #seguro ul li:before {
+            transform: translateY(-200%) rotate(-45deg);
+            ;
+        }
     }
     /* // Medium devices (tablets, 768px and up) */
     
@@ -465,6 +486,16 @@
         }
         .team-img2 {
             padding: 10px 20px;
+        }
+        .servicio-map {
+            height: 450px;
+        }
+        .transporte {
+            padding-left: 50px;
+        }
+        #seguro ul li:before {
+            transform: translateY(-450%) rotate(-45deg);
+            ;
         }
     }
     /* // Large devices (desktops, 992px and up) */
