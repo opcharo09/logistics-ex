@@ -369,6 +369,7 @@
         .nosotros-content {
             line-height: 1;
             font-size: 0.95rem;
+            justify-content: center;
         }
         .nosotros-content h2 {
             margin: 30px 0 30px;
