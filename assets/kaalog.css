@@ -265,7 +265,7 @@
         padding: 20px 0 20px 0;
         text-align: center;
         font-size: 1.3rem;
-        margin-bottom: 35px;
+        margin-bottom: 25px;
     }
     
     #location h2 {
@@ -274,6 +274,7 @@
     
     #location p {
         font-size: 1.1rem;
+        margin-bottom: 30px;
     }
     
     #i-phone {
@@ -295,7 +296,7 @@
         padding: 30px;
     }
     /* ////////////////////////////////////////////////////////////////media queries////////////////////////////////////////////////////////////////////// */
-    /* // Extra small devices (portrait phones, less than 576px) */
+    /* // Extra small devices (portrait phones, less than 483px) */
     
     @media (max-width: 483px) {
         .img-logo {
@@ -356,6 +357,9 @@
         #seguro ul li:before {
             transform: translateY(-175%) rotate(-45deg);
             ;
+        }
+        .contacto-info {
+            margin-bottom: 15px;
         }
     }
     /* /////////////// 483px - 576px///////////////////////// */
@@ -423,7 +427,12 @@
         }
         #seguro ul li:before {
             transform: translateY(-175%) rotate(-45deg);
-            ;
+        }
+        .contacto-info {
+            margin-bottom: 5px;
+        }
+        .contacto {
+            padding: 50px;
         }
     }
     /* // Small devices (landscape phones, 576px and up) */
