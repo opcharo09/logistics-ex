@@ -371,7 +371,7 @@
             font-size: 0.95rem;
         }
         .nosotros-content h2 {
-            margin: 30px 0 20px;
+            margin: 30px 0 30px;
             font-size: 1.2rem;
         }
         #team-photo {
@@ -383,7 +383,6 @@
         }
         .p-container {
             min-width: 500px;
-            padding: 10px 0 0;
         }
         .side-pic {
             width: 100%;
@@ -391,16 +390,11 @@
         }
         #lphoto {
             width: 100px;
-            padding: 0;
         }
         #rphoto {
             width: 100px;
-            padding: 0;
         }
         .navbar {
-            padding: 0;
-        }
-        .rest-ofpage-bg {
             padding: 0;
         }
     }
