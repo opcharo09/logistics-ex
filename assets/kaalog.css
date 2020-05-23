@@ -450,10 +450,12 @@
         }
         .nosotros-content {
             line-height: 1.1;
+            padding: 20px;
+            font-size: 1rem;
         }
         .nosotros-content h2 {
-            margin: 45px 0 45px;
-            font-size: 1.7rem;
+            margin: 20px 0 20px;
+            font-size: 1.2rem;
         }
         #team-photo {
             background-size: 350px 100%;
@@ -461,8 +463,18 @@
         .team-img2 {
             padding: 10px 20px;
         }
+        #lphoto {
+            padding: 0;
+        }
         .p-container {
             min-width: 710px;
+            padding: 0;
+        }
+        .rest-ofpage-bg {
+            padding: 0;
+        }
+        .mis-vis-val {
+            margin-right: 50px;
         }
         .servicio-map {
             height: 350px;
