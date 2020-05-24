@@ -310,6 +310,22 @@ footer {
 /* ////////////////////////////////////////////////////responsive//////////////////////////////////////////////////// */
 
 @media (max-width: 483px) {
+    .list {
+        position: absolute;
+        overflow: none;
+        float: none;
+        position: none;
+        top: 90%;
+        left: 0;
+        transform: none;
+        width: 400px;
+        background-color: rgb(200, 200, 200);
+    }
+    .linkedin {
+        position: none;
+        left: 65%;
+        margin: 10px 0;
+    }
     .img-logo {
         margin-bottom: 75px;
     }
