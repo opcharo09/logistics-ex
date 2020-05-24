@@ -10,6 +10,7 @@ window.onscroll = function() {
 }
 
 ///////////////////////////////////////////////////////// world clocks /////////////////////////////////////////////////
+//////// source code use for clocks https://www.proglogic.com/code/javascript/time/worldclock.php/////////////////
 
 function worldClock(zone, region) {
     var dst = 0
@@ -246,6 +247,7 @@ function worldClock(zone, region) {
             dst = 1
         }
     }
+
     if (region == "Australia") {
         var startDST = new Date()
         var endDST = new Date()
@@ -295,7 +297,7 @@ function worldClock(zone, region) {
 }
 
 function worldClockZone() {
-    document.getElementById("NewDelhi").innerHTML = worldClock(6, "NewDelhi")
+    document.getElementById("NewDelhi").innerHTML = worldClock(5, "NewDelhi")
     document.getElementById("MexicoCity").innerHTML = worldClock(-6, "NAmerica")
     document.getElementById("Frankfurt").innerHTML = worldClock(1, "Europe")
     document.getElementById("Moscow").innerHTML = worldClock(3, "Europe")

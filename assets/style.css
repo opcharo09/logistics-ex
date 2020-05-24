@@ -54,6 +54,21 @@ body {
 }
 
 
+/* iframe {
+    position: absolute;
+    top: 54px;
+    left: 95px;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 70px;
+    color: rgb(121, 36, 47);
+    font-family: 'Tajawal', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    text-shadow: 0 10px 30px #8DCAED;
+} */
+
+
 /* /////////////////////////////////////////////nav bar (for all pages)////////////////////////////////////// */
 
 .navbar-color {
@@ -117,7 +132,7 @@ button {
     background-color: rgb(121, 36, 47);
     font-size: 2rem;
     padding: 5px;
-    border: solid 5px rgb(200, 200, 200);
+    border: solid 5px rgb(84, 86, 90);
 }
 
 button:focus {
@@ -299,6 +314,10 @@ h2 {
 #location p {
     font-size: 1.1rem;
     margin-bottom: 30px;
+}
+
+#location p a {
+    color: #212529;
 }
 
 #i-phone {
