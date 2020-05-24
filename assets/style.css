@@ -109,8 +109,15 @@ body {
     font-size: 3.5rem;
 }
 
-span.navbar-toggler-icon {
-    color: rgb(121, 36, 47);
+button {
+    color: rgb(200, 200, 200);
+}
+
+.navbar-toggler-icon {
+    background-color: rgb(121, 36, 47);
+    font-size: 2rem;
+    padding: 5px;
+    border: solid 5px rgb(200, 200, 200);
 }
 
 
@@ -315,7 +322,7 @@ footer {
         overflow: none;
         float: none;
         position: none;
-        top: 90%;
+        top: 100%;
         left: 0;
         transform: none;
         width: 400px;
@@ -503,7 +510,7 @@ footer {
         overflow: none;
         float: none;
         position: none;
-        top: 90%;
+        top: 100%;
         left: 0;
         transform: none;
         width: 400px;
@@ -575,7 +582,7 @@ footer {
         overflow: none;
         float: none;
         position: none;
-        top: 90%;
+        top: 100%;
         left: 0;
         transform: none;
         width: 400px;
