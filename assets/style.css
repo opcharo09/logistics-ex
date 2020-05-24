@@ -120,6 +120,15 @@ button {
     border: solid 5px rgb(200, 200, 200);
 }
 
+button:focus {
+    outline: none;
+}
+
+.navbar-toggler {
+    border: none;
+    ;
+}
+
 
 /* ////////////////////////////////////////////////////////headings for all pages and background/////////////////////////////////////////////// */
 
