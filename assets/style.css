@@ -391,6 +391,22 @@ footer {
 /* /////////////// 483px - 576px///////////////////////// */
 
 @media (min-width: 483px) and (max-width: 576px) {
+    .list {
+        position: none;
+        overflow: none;
+        float: none;
+        position: none;
+        top: 90%;
+        left: 0;
+        transform: none;
+        width: 400px;
+        background-color: rgb(200, 200, 200);
+    }
+    .linkedin {
+        position: none;
+        left: 65%;
+        margin: 0;
+    }
     .img-logo {
         margin-bottom: 75px;
     }
@@ -466,6 +482,22 @@ footer {
 /* // Small devices (landscape phones, 576px and up) */
 
 @media (min-width: 576px) and (max-width: 767.98px) {
+    .list {
+        position: none;
+        overflow: none;
+        float: none;
+        position: none;
+        top: 90%;
+        left: 0;
+        transform: none;
+        width: 400px;
+        background-color: rgb(200, 200, 200);
+    }
+    .linkedin {
+        position: none;
+        left: 45%;
+        margin: 15px 0;
+    }
     .clocks-style {
         margin-bottom: 50px;
     }
@@ -522,6 +554,22 @@ footer {
 /* // Medium devices (tablets, 768px and up) */
 
 @media (min-width: 768px) and (max-width: 991.98px) {
+    .list {
+        position: none;
+        overflow: none;
+        float: none;
+        position: none;
+        top: 90%;
+        left: 0;
+        transform: none;
+        width: 400px;
+        background-color: rgb(200, 200, 200);
+    }
+    .linkedin {
+        position: none;
+        left: 35%;
+        margin: 10px 0;
+    }
     .cityName {
         padding: 0;
     }
