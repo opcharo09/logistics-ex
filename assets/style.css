@@ -54,21 +54,6 @@ body {
 }
 
 
-/* iframe {
-    position: absolute;
-    top: 54px;
-    left: 95px;
-    transform: translateX(-50%);
-    width: 100%;
-    height: 70px;
-    color: rgb(121, 36, 47);
-    font-family: 'Tajawal', sans-serif;
-    font-size: 24px;
-    text-align: center;
-    text-shadow: 0 10px 30px #8DCAED;
-} */
-
-
 /* /////////////////////////////////////////////nav bar (for all pages)////////////////////////////////////// */
 
 .navbar-color {
@@ -79,7 +64,7 @@ body {
 
 .nav-link {
     color: rgb(121, 36, 47);
-    font-weight: 900;
+    font-weight: 700;
     font-size: 1.7rem;
 }
 
@@ -247,7 +232,7 @@ h2 {
     padding-bottom: 50px;
 }
 
-#ter-con h2 {
+#ter-con h3 {
     text-align: center;
     color: rgb(121, 36, 47);
     margin-bottom: 30px;
@@ -296,7 +281,7 @@ h2 {
 }
 
 .contacto {
-    height: 992px;
+    height: 1100px;
     padding: 75px;
 }
 
@@ -313,7 +298,7 @@ h2 {
 
 #location p {
     font-size: 1.1rem;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 #location p a {
@@ -431,10 +416,13 @@ footer {
     }
     #location p {
         font-size: 1rem;
-        margin-bottom: 15px;
+        margin-bottom: 30px;
     }
     .goggle-map {
-        margin-top: 30px;
+        margin-top: 50px;
+    }
+    .contacto {
+        height: 1400px;
     }
 }
 
@@ -526,6 +514,10 @@ footer {
     }
     .contacto {
         padding: 50px;
+        height: 1300px;
+    }
+    .goggle-map {
+        margin-top: 50px;
     }
 }
 
@@ -599,6 +591,12 @@ footer {
     #seguro ul li:before {
         transform: translateY(-200%) rotate(-45deg);
     }
+    .goggle-map {
+        margin-top: 50px;
+    }
+    .contacto {
+        height: 1400px;
+    }
 }
 
 
@@ -656,6 +654,12 @@ footer {
     #seguro ul li:before {
         transform: translateY(-450%) rotate(-45deg);
     }
+    .goggle-map {
+        margin-top: 50px;
+    }
+    .contacto {
+        height: 1400px;
+    }
 }
 
 
@@ -671,9 +675,16 @@ footer {
     .team-img2 {
         padding: 10px 20px;
     }
+    .contacto {
+        height: 1300px;
+    }
 }
 
 
 /* // Extra large devices (large desktops, 1200px and up) */
 
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+    .contacto {
+        padding: 75px 35px;
+    }
+}
