@@ -160,7 +160,7 @@ h2 {
     font-size: 1.1rem;
 }
 
-.nosotros-content h2 {
+nosotros-content h2 {
     text-align: left;
     margin: 50px 0 70px;
     color: rgb(121, 36, 47);
@@ -170,16 +170,16 @@ h2 {
 
 /* picture will go in bakground intead of gray color */
 
-#team-photo {
+/*#team-photo {
     background: rgb(84, 86, 90);
     background-position: center;
     background-size: 500px 100%;
     margin: 10 0 10 0;
     padding-left: 0;
     padding-right: 0;
-}
+}*/
 
-.team-img2 {
+.team-intro {
     padding: 30px;
     background: rgb(84, 86, 90, 0.75); 
     width: 100%;
