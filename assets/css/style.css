@@ -208,7 +208,7 @@ h2 {
 
 .Individual-team{
     width: 100%;
-    height: 200px;
+    height: 250px;
 }
    #rphoto {
     margin-left: 0;
@@ -412,14 +412,17 @@ footer {
     #team-photo {
         background-size: 200px 100%;
     }
-    .team-img2 {
+    .team-picM {
+        padding: 10px 20px;
+    }
+     .team-pic {
         padding: 10px 20px;
     }
     .p-container {
         min-width: 470px;
         padding: 10px 0 0;
     }
-    .side-pic {
+    .Individual-team {
         width: 100%;
         height: 200px;
     }
@@ -501,9 +504,10 @@ footer {
     }
     .nosotros-content {
         line-height: 1.1;
-        font-size: 1rem;
+        font-size: 0.8rem;
         justify-content: center;
-        padding: 20px 0;
+        padding: 20px 0 
+        height: 2000px;
     }
     .nosotros-content h2 {
         margin: 15px 0 15px;
@@ -511,21 +515,25 @@ footer {
     }
     #team-photo {
         background-size: 200px 100%;
-        width: 300px;
-        height: 450px;
+        width: 400px;
+        height: 850px;
     }
-    .team-img2 {
-        padding: 10px 20px;
-        height: 450px;
-        font-size: 0.7rem;
+   
+    .team-picM {
+       
+        height:150px;
+    }
+    .team-pic {
+        
+        height:200px;
     }
     .p-container {
-        min-width: 500px;
+        min-width: 600px;
         padding: 0;
     }
-    .side-pic {
+    .Individual-team {
         width: 100%;
-        height: 150px;
+        height: 175px;
     }
     #lphoto {
         padding: 0;
@@ -597,14 +605,20 @@ footer {
         font-size: 1rem;
     }
     .nosotros-content h2 {
-        margin: 20px 0 20px;
+        margin: 20px 0 20px 0;
         font-size: 1.2rem;
     }
     #team-photo {
         background-size: 350px 100%;
+       
     }
-    .team-img2 {
-        padding: 10px 20px;
+    .team-picM {
+        width: 110%;
+        height:220px;
+    }
+    .team-pic {
+        
+        height:200px;
     }
     #lphoto {
         padding: 0;
@@ -679,8 +693,13 @@ footer {
         background-size: 400px 100%;
         margin: 0;
     }
-    .team-img2 {
-        padding: 10px 20px;
+    .team-picM {
+        
+        height:250px;
+    }
+    .team-pic {
+        
+        height:300px;
     }
     .servicio-map {
         height: 450px;
@@ -709,9 +728,7 @@ footer {
     .nosotros-content h2 {
         margin: 50px 0 50px;
     }
-    .team-img2 {
-        padding: 10px 20px;
-    }
+    
     .contacto {
         height: 1300px;
     }
