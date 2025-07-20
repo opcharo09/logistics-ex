@@ -487,7 +487,8 @@ footer {
         margin: 0;
     }
     .img-logo {
-        margin-bottom: 75px;
+        width: 100%;
+       
     }
     .clocks-style {
         margin-bottom: 50px;
