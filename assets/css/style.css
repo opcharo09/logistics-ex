@@ -6,6 +6,7 @@ body {
 /* ///////////////////////////////////////////////mainPage(inicio)///////////////////////////////////////////// */
 
 #mpage-bg {
+    padding: 100px;
     background: repeating-linear-gradient(90deg, rgb(200, 200, 200) 0px, rgb(200, 200, 200) 40px, white 50px);
     height: 992px;
 }
