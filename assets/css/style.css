@@ -9,6 +9,7 @@ body {
     padding-top: 30px;
     background: repeating-linear-gradient(90deg, rgb(200, 200, 200) 0px, rgb(200, 200, 200) 40px, white 50px);
     height: 992px;
+    border:solid rgb(200, 200, 200) 7px ;
 }
 
 .main-navbar {
@@ -53,6 +54,9 @@ body {
     font-size: 24px;
     text-align: center;
     text-shadow: 0 10px 30px #8DCAED;
+}
+.logos{
+    align-content: center;
 }
 
 
