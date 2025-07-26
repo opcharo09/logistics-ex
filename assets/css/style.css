@@ -18,9 +18,8 @@ body {
     transition: all 0.5;
 }
 
-.img-logo {
-    align-content: center;
-    padding: 100px 0 100px 0;
+.img-logo {  
+    padding: 100px 50px ;
 }
 
 .clocks-style h4 {
@@ -56,7 +55,8 @@ body {
     text-shadow: 0 10px 30px #8DCAED;
 }
 .logos{
-    align-content: center;
+   align-content: center ;
+   padding: 0 50px;
 }
 
 
