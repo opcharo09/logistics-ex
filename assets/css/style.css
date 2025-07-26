@@ -56,8 +56,9 @@ body {
 }
 .logos{
    align-content: center ;
-   padding: 0 100px;
-   height: 250px;
+   
+   height: 300px;
+    padding-inline: 50px;
 }
 
 
