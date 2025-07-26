@@ -132,9 +132,9 @@ button:focus {
 
 /* ////////////////////////////////////////////////////////headings for all pages and background/////////////////////////////////////////////// */
 
-.rest-ofpage-bg {
+/*.rest-ofpage-bg {
     background: rgb(200, 200, 200);
-}
+}*/
 h3 {
     margin-bottom: 1rem;
     color: rgb(121, 36, 47);
@@ -155,7 +155,7 @@ h2 {
 .nosotros-content {
     align-content: center;
     line-height: 1.5;
-    padding: 50px;
+    padding: 10px;
     color: rgb(84, 86, 90);
     font-size: 1.1rem;
 }
@@ -190,25 +190,16 @@ h2 {
 
 .team-picM {
     width: 100%;
-    height: 400px;
+    height: 300px;
     border: solid 6px rgb(245, 243, 243) ;
     display: block;
     margin:center;
     
 }
 
-.team-pic {
-    width: 75%;
-    height: 450px;
-    border: solid 6px rgb(245, 243, 243) ;
-    display: block;
-    margin:auto;
-    
-}
-
 .Individual-team{
     width: 100%;
-    height: 250px;
+    height: 275px;
 }
    #rphoto {
     margin-left: 0;
@@ -219,17 +210,6 @@ h2 {
     margin-right: 0;
     padding-right: 0;
 }
-/*.carousel {
-  display: flex;
-  overflow-x: scroll;
-  scroll-snap-type: x mandatory; 
-  }
-
-.carousel img {
-  flex-shrink: 0;
-  scroll-snap-align: center; 
-  }*/
-
 
 .mis-vis-val {
     margin-bottom: 0;
@@ -399,32 +379,32 @@ footer {
         top: 34px;
         left: 50%;
     }
-    .nosotros-content {
-        line-height: 1.0;
-        font-size: 0.7rem;
-        padding: 0;
-        margin: 0;
-    }
-    .nosotros-content h2 {
-        margin: 15px 0 20px;
-        font-size: 1rem;
-    }
-    #team-photo {
-        background-size: 200px 100%;
-    }
-    .team-picM {
-        padding: 10px 20px;
-    }
-     .team-pic {
-        padding: 10px 20px;
-    }
-    .p-container {
+   .p-container {
         min-width: 470px;
         padding: 10px 0 0;
     }
+    .nosotros-content {
+        font-size: 0.5rem;
+      padding: 0px 0 20px;
+      justify-content: left;
+      margin-right: 100px;
+         
+    }
+    .nosotros-content h2 {
+        margin: 15px 0 10px;
+        font-size: 1rem;
+    }
+    #team-photo {
+        background-size: 800px 100%;
+    }
+    .team-picM {
+        height: 40px;
+    }
+    
+    
     .Individual-team {
         width: 100%;
-        height: 200px;
+        height: 125px;
     }
     .rest-ofpage-bg {
         padding: 0 10px 0 0;
@@ -506,8 +486,10 @@ footer {
     .nosotros-content {
         line-height: 1.1;
         font-size: 0.8rem;
-        justify-content: center;
-        padding: 20px 0 
+        justify-content: left;
+        padding: 0% ;
+        margin-top:1px;
+        margin-bottom: 200px
         height: 2000px;
     }
     .nosotros-content h2 {
@@ -516,8 +498,6 @@ footer {
     }
     #team-photo {
         background-size: 200px 100%;
-        width: 400px;
-        height: 850px;
     }
    
     .team-picM {
@@ -529,16 +509,23 @@ footer {
         height:200px;
     }
     .p-container {
-        min-width: 600px;
+        min-width: 600px;  
         padding: 0;
     }
     .Individual-team {
         width: 100%;
-        height: 175px;
+        height: 210px;
     }
     #lphoto {
         padding: 0;
     }
+    .mis-vis-val {
+    margin-top: 10px;
+    margin-right: 100px;
+    justify-content: right;
+    padding-bottom: 3rem;
+    
+}
     .navbar {
         padding: 0;
     }
@@ -615,12 +602,12 @@ footer {
     }
     .team-picM {
         width: 110%;
-        height:220px;
+        height:250px;
     }
-    .team-pic {
-        
-        height:200px;
-    }
+   .Individual-team
+   {
+    height: 300px;
+   }
     #lphoto {
         padding: 0;
     }
@@ -698,10 +685,7 @@ footer {
         
         height:250px;
     }
-    .team-pic {
-        
-        height:300px;
-    }
+   
     .servicio-map {
         height: 450px;
     }
