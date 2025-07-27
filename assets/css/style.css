@@ -512,6 +512,10 @@ footer {
         top: 34px;
         left: 50%;
     }
+
+    .ilogos{
+        height: 125px;
+    }
     .nosotros-content {
         line-height: 1.1;
         font-size: 0.8rem;
@@ -697,6 +701,10 @@ footer {
         top: 62px;
         left: 60px;
     }
+     .logos{
+        width: 150px;
+        height: 200px;
+   }
     .nosotros-content {
         line-height: 1.1;
     }
@@ -749,7 +757,10 @@ footer {
     .goggle-map {
         margin-top: 50px;
     }
-   
+   .logos{
+        width: 200px;
+        height: 250px;
+   }
 }
 
 
