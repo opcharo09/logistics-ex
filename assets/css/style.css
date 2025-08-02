@@ -198,18 +198,18 @@ h5{
 
 .team-picM {
     width: 100%;
-    height: 350px;
+    height: 325px;
     border: solid 6px rgb(245, 243, 243) ;
     display: block;
     margin:center;
     margin-top: 50px;
-    margin-bottom: 200px; 
+    margin-bottom: 25px; 
 }
 
 .Individual-team{
     width: 100%;
     height: 275px;
-   margin: 10px;
+  /* margin: 10px;*/
 }
 .Individual-middle-team{
   
